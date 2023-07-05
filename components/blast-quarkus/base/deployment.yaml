@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: blast-quarkus
     spec:
       containers:
-      - image: blast-quarkus:latest
+      - image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-quarkus@sha256:c0c08b1d7c817ab6bef660dcf4f82c1290b776a877ee9c23ebbab90188999335
         name: blast-quarkus
         ports:
         - containerPort: 8081
