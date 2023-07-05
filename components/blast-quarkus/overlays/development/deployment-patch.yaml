@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-quarkus@sha256:0419721de4edc30953daedb13aea07e8de042bc939cce81b24bf70cd0fdb9f5e
+      - image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-quarkus@sha256:78d411dce2555eec2d81854918b81971a05d054424dbd6135ad3bd7b19cb1df2
         name: blast-quarkus
         resources: {}
 status: {}
