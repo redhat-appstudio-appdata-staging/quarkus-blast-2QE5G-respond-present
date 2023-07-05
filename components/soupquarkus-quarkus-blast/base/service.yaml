@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: soupquarkus-quarkus-blast
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: soupquarkus-quarkus-blast
+    app.kubernetes.io/part-of: quarkus-blast
+  name: soupquarkus-quarkus-blast
+spec:
+  ports:
+  - port: 8081
+    targetPort: 8081
+  selector:
+    app.kubernetes.io/instance: soupquarkus-quarkus-blast
+status:
+  loadBalancer: {}
