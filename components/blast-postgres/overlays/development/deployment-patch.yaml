@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-postgres@sha256:24e657a06fdc2ccebc8717663d0a0b30bcb638a3b3c4f4633a420bba0e9f428e
+      - image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-postgres@sha256:9b646ab4dc654d7a0c7b60240a344a1cdca32cae187fb3abeb9fda13126d774a
         name: blast-postgres
         resources: {}
 status: {}
