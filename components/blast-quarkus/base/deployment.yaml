@@ -28,7 +28,7 @@ spec:
       - env:
         - name: QUARKUS_PROFILE
           value: soup
-        image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-quarkus@sha256:5283613670be4cb9093435afaafadfe470aaf885791da3baf106dc03326a6b08
+        image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-quarkus@sha256:78d411dce2555eec2d81854918b81971a05d054424dbd6135ad3bd7b19cb1df2
         name: blast-quarkus
         ports:
         - containerPort: 8081
