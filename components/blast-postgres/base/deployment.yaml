@@ -38,7 +38,7 @@ spec:
             secretKeyRef:
               key: user
               name: postgres-secrets
-        image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-postgres@sha256:24e657a06fdc2ccebc8717663d0a0b30bcb638a3b3c4f4633a420bba0e9f428e
+        image: quay.io/redhat-user-workloads-stage/adamevin-tenant/quarkus-blast/blast-postgres@sha256:28241fabd1a400773f20aabf2602035e55e7b05edcc2192a5cdc40f549c98832
         name: blast-postgres
         ports:
         - containerPort: 5432
